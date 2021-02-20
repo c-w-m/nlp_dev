@@ -21,7 +21,7 @@ $ git clone --recurse-submodules https://github.com/c-w-m/nlp_dev.git
 ```shell
 # The following submodules were added:
 $ cd src
-$ git submodule add 
+$ git submodule add https://github.com/c-w-m/nlp-py-tutorial.git
 ```
 #### Removing Submodules
 ```shell

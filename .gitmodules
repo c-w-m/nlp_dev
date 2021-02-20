@@ -1,0 +1,3 @@
+[submodule "src/nlp-py-tutorial"]
+	path = src/nlp-py-tutorial
+	url = https://github.com/c-w-m/nlp-py-tutorial.git

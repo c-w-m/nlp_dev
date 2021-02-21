@@ -1,0 +1,47 @@
+cwm@flxsa02:~/git/git.c-w-m/nlp_dev/docs/ocr$ sudo apt-get install tesseract-ocr
+[sudo] password for cwm: 
+Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  hdf5-helpers libaec-dev libexif-dev libhdf5-cpp-11 liblcms2-dev libwmf-dev
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  tesseract-ocr-eng tesseract-ocr-equ tesseract-ocr-osd
+The following NEW packages will be installed:
+  tesseract-ocr tesseract-ocr-eng tesseract-ocr-equ tesseract-ocr-osd
+0 upgraded, 4 newly installed, 0 to remove and 44 not upgraded.
+Need to get 12.5 MB of archives.
+After this operation, 51.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 tesseract-ocr-eng all 3.04.00-1 [8,824 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 tesseract-ocr-osd all 3.04.00-1 [2,988 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 tesseract-ocr-equ all 3.04.00-1 [568 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu xenial/universe amd64 tesseract-ocr amd64 3.04.01-4 [132 kB]
+Fetched 12.5 MB in 0s (14.5 MB/s)       
+Selecting previously unselected package tesseract-ocr-eng.
+(Reading database ... 626780 files and directories currently installed.)
+Preparing to unpack .../tesseract-ocr-eng_3.04.00-1_all.deb ...
+Unpacking tesseract-ocr-eng (3.04.00-1) ...
+Selecting previously unselected package tesseract-ocr-osd.
+Preparing to unpack .../tesseract-ocr-osd_3.04.00-1_all.deb ...
+Unpacking tesseract-ocr-osd (3.04.00-1) ...
+Selecting previously unselected package tesseract-ocr-equ.
+Preparing to unpack .../tesseract-ocr-equ_3.04.00-1_all.deb ...
+Unpacking tesseract-ocr-equ (3.04.00-1) ...
+Selecting previously unselected package tesseract-ocr.
+Preparing to unpack .../tesseract-ocr_3.04.01-4_amd64.deb ...
+Unpacking tesseract-ocr (3.04.01-4) ...
+Processing triggers for man-db (2.7.5-1) ...
+Setting up tesseract-ocr-eng (3.04.00-1) ...
+Setting up tesseract-ocr-osd (3.04.00-1) ...
+Setting up tesseract-ocr-equ (3.04.00-1) ...
+Setting up tesseract-ocr (3.04.01-4) ...
+cwm@flxsa02:~/git/git.c-w-m/nlp_dev/docs/ocr$ 
+
+cwm@flxsa02:~/git/git.c-w-m/nlp_dev/docs/ocr$ tesseract -v
+tesseract 3.04.01
+ leptonica-1.73
+  libgif 5.1.2 : libjpeg 8d (libjpeg-turbo 1.4.2) : libpng 1.2.54 : libtiff 4.0.6 : zlib 1.2.8 : libwebp 0.4.4 : libopenjp2 2.1.2
+
+cwm@flxsa02:~/git/git.c-w-m/nlp_dev/docs/ocr$

@@ -20,9 +20,20 @@ $ git clone --recurse-submodules https://github.com/c-w-m/nlp_dev.git
 ### Submodules
 ```shell
 # The following submodules were added:
+$ cd docs
+$ git submodule add https://github.com/c-w-m/hgf-awesome-papers.git
+
 $ cd src
+$ git submodule add https://github.com/c-w-m/anlp-tf2.git
+$ git submodule add https://github.com/c-w-m/btap.git
+$ git submodule add https://github.com/c-w-m/hgf-datasets.git
+$ git submodule add https://github.com/c-w-m/hgf-transformers.git
+$ git submodule add https://github.com/c-w-m/hgf-tokenizers.git
 $ git submodule add https://github.com/c-w-m/nlp-py-tutorial.git
+$ git submodule add https://github.com/c-w-m/pnlp.git
+$ git submodule add https://github.com/c-w-m/tnlp.git
 $ git submodule add https://github.com/c-w-m/web_scraping.git
+
 ```
 #### Removing Submodules
 ```shell
@@ -103,11 +114,27 @@ $ sh ./clean_after_tox.sh
         * [code - Part #7](https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P52-Episode-7-Files.zip)
       * [Challenge Solution - Part #8](https://www.youtube.com/watch?v=qb5eG4V2FtU)
         * [code - Part #8](https://sds-platform-private.s3-us-east-2.amazonaws.com/uploads/P52-Episode-8-Files.zip)
-    
+* Blueprints for Text Analytics Using Python
+    - original code: [blueprints-text](https://github.com/blueprints-for-text-analytics-python/blueprints-text)
+    - local code: [btap](https://github.com/c-w-m/btap.git)
+* Practical Natural Language Processing
+    -  original code: [practical-nlp](https://github.com/practical-nlp/practical-nlp)
+    - local code: [pnlp](https://github.com/c-w-m/pnlp.git)
+* Advanced Natural Language Processing with TensorFlow 2
+    - original code: [Advanced-Natural-Language-Processing-with-TensorFlow-2](https://github.com/PacktPublishing/Advanced-Natural-Language-Processing-with-TensorFlow-2)
+    - local code: [anlptf2](https://github.com/c-w-m/anlptf2.git)
+* [Hugging Face](https://github.com/huggingface)
+    - [awesome-papers]() 
+    - transformers
+
 ### Misc Code
 * [pytesseract](https://github.com/madmaze/pytesseract)
      - [pytesseract 0.3.7](https://pypi.org/project/pytesseract/)
 * [Pillow](https://github.com/python-pillow/Pillow)
+* [btap](https://github.com/c-w-m/btap.git)
+* [pnlp](https://github.com/c-w-m/pnlp.git)
+* [anlptf2](https://github.com/c-w-m/anlptf2.git)
+* []()
 
 ### Blogs
 * [Build your own OCR(Optical Character Recognition) for free](https://medium.com/@balaajip/optical-character-recognition-99aba2dad314)
@@ -116,11 +143,6 @@ $ sh ./clean_after_tox.sh
 * [Installing Tesseract for OCR](https://www.pyimagesearch.com/2017/07/03/installing-tesseract-for-ocr/)
 * [Using Tesseract OCR with Python](https://www.pyimagesearch.com/2017/07/10/using-tesseract-ocr-python/)
 * [Setting up a Simple OCR Server](https://realpython.com/setting-up-a-simple-ocr-server/)
-* []()
-* []()
-* []()
-
-
 
 ### Google SAS
 * [Training Your Models on Cloud TPUs in 4 Easy Steps on Google Colab](https://medium.com/analytics-vidhya/tpu-training-made-easy-with-colab-3b73b920878f)

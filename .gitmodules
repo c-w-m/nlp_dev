@@ -1,3 +1,33 @@
+# doc
+[submodule "doc/hgf-awesome-papers"]
+	path = doc/hgf-awesome-papers
+	url = https://github.com/c-w-m/hgf-awesome-papers.git
+
+# src
+[submodule "src/anlp-tf2"]
+	path = src/anlp-tf2
+	url = https://github.com/c-w-m/anlp-tf2.git
+[submodule "src/btap"]
+	path = src/btap
+	url = https://github.com/c-w-m/btap.git
+
+# Hugging Face code
+[submodule "src/hgf-datasets"]
+	path = src/hgf-datasets
+	url = https://github.com/c-w-m/hgf-datasets.git
+[submodule "src/hgf-tokenizers"]
+	path = src/hgf-tokenizers
+	url = https://github.com/c-w-m/hgf-tokenizers.git
+[submodule "src/hgf-transformers"]
+	path = src/hgf-transformers
+	url = https://github.com/c-w-m/hgf-transformers.git
+
 [submodule "src/nlp-py-tutorial"]
 	path = src/nlp-py-tutorial
 	url = https://github.com/c-w-m/nlp-py-tutorial.git
+[submodule "src/pnlp"]
+	path = src/pnlp
+	url = https://github.com/c-w-m/pnlp.git
+[submodule "src/tnlp"]
+	path = src/tnlp
+	url = https://github.com/c-w-m/tnlp.git

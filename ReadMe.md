@@ -26,10 +26,12 @@ $ git submodule add https://github.com/c-w-m/hgf-awesome-papers.git
 $ cd src
 $ git submodule add https://github.com/c-w-m/anlp-tf2.git
 $ git submodule add https://github.com/c-w-m/btap.git
+$ git submodule add https://github.com/c-w-m/colab.git
 $ git submodule add https://github.com/c-w-m/hgf-datasets.git
 $ git submodule add https://github.com/c-w-m/hgf-transformers.git
 $ git submodule add https://github.com/c-w-m/hgf-tokenizers.git
 $ git submodule add https://github.com/c-w-m/nlp-py-tutorial.git
+$ git submodule add https://github.com/c-w-m/nlp-w2d.git
 $ git submodule add https://github.com/c-w-m/pnlp.git
 $ git submodule add https://github.com/c-w-m/tnlp.git
 $ git submodule add https://github.com/c-w-m/web_scraping.git

@@ -1,4 +1,4 @@
-# [PacktPublishing](https://github.com/PacktPublishing)
+ [PacktPublishing](https://github.com/PacktPublishing)
 
 ## References
 

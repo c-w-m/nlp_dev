@@ -31,3 +31,6 @@
 [submodule "src/tnlp"]
 	path = src/tnlp
 	url = https://github.com/c-w-m/tnlp.git
+[submodule "src/colab"]
+	path = src/colab
+	url = https://github.com/c-w-m/colab.git

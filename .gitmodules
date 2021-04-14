@@ -37,9 +37,6 @@
 [submodule "src/tensorflow_docs"]
 	path = src/tensorflow_docs
 	url = https://github.com/c-w-m/tensorflow_docs.git
-[submodule "src/pnlp"]
-	path = src/pnlp
-	url = https://github.com/c-w-m/pnlp.git
 [submodule "src/snorkel-tutorials"]
 	path = src/snorkel-tutorials
 	url = https://github.com/c-w-m/snorkel-tutorials.git

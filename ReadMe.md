@@ -33,6 +33,9 @@ $ git submodule add https://github.com/c-w-m/hgf-tokenizers.git
 $ git submodule add https://github.com/c-w-m/nlp-py-tutorial.git
 $ git submodule add https://github.com/c-w-m/nlp-w2d.git
 $ git submodule add https://github.com/c-w-m/pnlp.git
+$ git submodule add https://github.com/c-w-m/snorkel-tutorials.git
+$ git submodule add https://github.com/c-w-m/tensorflow.git
+$ git submodule add https://github.com/c-w-m/tensorflow_docs.git
 $ git submodule add https://github.com/c-w-m/tnlp.git
 $ git submodule add https://github.com/c-w-m/web_scraping.git
 
@@ -48,6 +51,22 @@ rm -rf .git/modules/path/to/submodule
 
 # Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule
 git rm -f path/to/submodule
+```
+
+### Jupyter Lab
+#### Add a Kernel
+```shell
+$ source .tox/snorkel37/bin/activate
+(snorkel37) $ python -m ipykernel install --user --name=snorkel37
+```
+
+#### List All Kernels
+```shell
+$ jupyter kernelspec list
+```
+#### Remove a Kernel
+```shell
+$ jupyter kernelspec uninstall <kernel_name>
 ```
 
 ### Helper Scripts

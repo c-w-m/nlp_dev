@@ -40,3 +40,6 @@
 [submodule "src/snorkel-tutorials"]
 	path = src/snorkel-tutorials
 	url = https://github.com/c-w-m/snorkel-tutorials.git
+[submodule "src/pnlp"]
+	path = src/pnlp
+	url = https://github.com/c-w-m/pnlp.git

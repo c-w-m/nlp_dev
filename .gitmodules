@@ -43,3 +43,9 @@
 [submodule "src/pnlp"]
 	path = src/pnlp
 	url = https://github.com/c-w-m/pnlp.git
+[submodule "src/kaggle-demo-retinaface"]
+	path = src/kaggle-demo-retinaface
+	url = https://github.com/c-w-m/kaggle-demo-retinaface.git
+[submodule "src/kaggle-demo-web"]
+	path = src/kaggle-demo-web
+	url = https://github.com/c-w-m/kaggle-demo-web.git

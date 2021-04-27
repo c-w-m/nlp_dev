@@ -43,10 +43,9 @@ $ git submodule add https://github.com/c-w-m/web_scraping.git
 
 # Kaggle
 kaggle-demo-retinaface
-# Colerridge Initiative
+
+# Kaggle Competition: **Colerridge Initiative**
 $ git submodule add https://github.com/c-w-m/nlp-w2d.git
-
-
 ```
 #### Removing Submodules
 ```shell
